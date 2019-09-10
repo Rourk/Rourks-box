@@ -3,8 +3,9 @@
 <input type=button value=run onclick="{
 
   let mytemp = document.getelementbyid('mytext01').value
+  
   document.getElementbyid('mydiv01').innerHTML = mytemp
-
+  
 }">
 
 <div id="mydive01">...</dive>
